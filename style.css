@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Murecho", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+main .top {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .top .img {
+  height: inherit;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .top .name,
+.contact {
+  height: inherit;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+main .top .contact {
+  width: 30%;
+}
+main .top .img img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+main .top .name h1 {
+  font-size: 55px;
+  color: #5588ff;
+}
+main .top .name p {
+  font-size: 23px;
+  font-weight: 400;
+}
+main .top .contact h4 {
+  font-weight: 500;
+  color: #5588ff;
+  padding-bottom: 20px;
+}
+main .top .contact ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+i {
+  padding-right: 10px;
+  color: #5588ff;
+  font-size: 20px;
+}
+main .body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+}
+main .body .left,
+.right {
+  width: 40%;
+  top: 0;
+  height: inherit;
+}
+.border {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+.border .bold {
+  width: 10%;
+  height: inherit;
+  background-color: #5588ff;
+}
+.border .thin {
+  width: 90%;
+  height: 2px;
+  margin-top: 4px;
+  background-color: #5588ff;
+}
+.list {
+  width: 95%;
+  position: relative;
+  left: 5%;
+  padding: 10px 0;
+}
+main .body .left .about,
+.skills,
+.achievement,
+.soft-skills,
+.right .projects,
+.education {
+  width: 100%;
+}
+main .body h2 {
+  padding: 10px 0;
+  color: #5588ff;
+  font-weight: 500;
+}
+main .body .left .about p {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+main .body .parts {
+  padding: 5px 0;
+}
